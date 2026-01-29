@@ -201,7 +201,7 @@ export default function Home() {
                       setPreviewUrl(url);
                       setGeneratedDesign(null);
                       setError(null);
-                    } catch (err) {
+                    } catch {
                       setError('Failed to load example image');
                     }
                   }}
